@@ -1,2 +1,2 @@
-# homo-114514.xyz
+# 114514.store
 Just Homo
