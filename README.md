@@ -1,5 +1,4 @@
-# homo-114514.xyz
+# 114514.store
 Just Homo
 
-喜欢的话记得star一下哦
-有好的点子欢迎pr
+(如果你需要友链，你可以发issue或者直接pr或者发邮件给我)
