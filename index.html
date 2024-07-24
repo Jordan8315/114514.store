@@ -3,10 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>HomoのWebsite</title>
-  <link rel="shortcut icon" href="/icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
   <script src="index.js"></script>
-  <link href="index.css" rel="stylesheet">
 </head>
+
+<style>
+  div.grid {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  }
+
+  a {
+    text-decoration: underline;
+    color: #0000ff
+  }
+</style>
 
 <body class="container bg-zlate-100 mx-auto">
   <div class="grid grid-cols-6 gap-0.5 border border-transparent rounded shadow-lg bg-zinc-center mx-auto mt-3">
@@ -18,21 +28,34 @@
       <img class="w-1/2 mx-auto mt-auto h-auto" src="youya.jpeg" />
     </div>
     <div class="round shadow">
-      <dt><a class="github-page" href="https://github.com/Jordan8315/114514.store">Github</a></dt>
-      <dt><a class="partner" href="partner/">友情链接</a></dt>
-      <dt><a class="blog" href="https://blog.114514.store">homo特有的博客</a></dt>
-      <dt><a class="blog" href="https://xianbei114514.com/list.html">产品列表</a></dt>
+      <a class="github-page" href="https://github.com/Jordan8315/114514.store">Github</a><br>
+      <a class="partner" href="partner/">友情链接</a><br>
+      <a class="blog" href="https://blog.114514.store">homo特有的博客</a><br>
+      <a class="blog" href="https://xianbei114514.com/list.html">产品列表</a>
     </div>
   </div>
   <div class="song-player">
-    <iframe class="song1" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-      src="//music.163.com/outchain/player?type=2&id=1345485069&auto=0&height=66"></iframe>
-    <iframe class="song2" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-      src="//music.163.com/outchain/player?type=2&id=437715323&auto=0&height=66"></iframe>
-    <iframe class="song3" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-      src="//music.163.com/outchain/player?type=2&id=399051&auto=0&height=66"></iframe>
-    <iframe class="song4" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-      src="//music.163.com/outchain/player?type=2&id=512613128&auto=0&height=66"></iframe>
+    <h6>宮本浩次-冬の花</h6>
+    <audio controls class="1">
+      <source src="res/music/1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <h6>坂本龍一-Merry Christmas Mr. Lawrence</h6>
+    <audio controls class="2">
+      <source src="res/music/2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <h6>郎朗&Johann Sebastian Bach-Orchestral Suite No. 3 in D Major, BWV 1068： II. Air 'On a G String' (Arr. for Piano)
+    </h6>
+    <audio controls class="3">
+      <source src="res/music/3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <h6>秋川雅史-千の風になって~カラオケ~</h6>
+    <audio controls class="4">
+      <source src="res/music/4.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </div>
 
 </body>
